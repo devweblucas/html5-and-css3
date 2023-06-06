@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 1</title>
+    <style>
+        html, body{
+            height: 100%;
+        }
+        .box{
+            color: greenyellow;
+            background-color: rgb(126, 180, 180);
+            width: 500px;
+            height: 500px;
+            margin-bottom: 20px;
+        }
+
+        .box span{
+            display: inline-block;
+            color: inherit;
+            width: inherit;
+            height: inherit;
+            background-color: inherit;
+            
+        }
+
+        .box2 {
+            background-color: rgb(255, 0, 0);
+            width: 500px;
+            height: 500px;     
+        }
+        .box3{
+            color: white;
+            width: inherit;
+        }
+        div.box2 > div.box3 > span{
+            display: inline-block;
+            background-color: aqua;
+            width: inherit;
+        }
+        .box4{
+            color: aqua;
+        }
+        .box4 > p{
+            color: initial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Auto, inherit e initial</h1>
+    <div class="box">
+        <span>Olá mundo</span>
+    </div>
+    <div class="box2">
+        <div class="box3">
+            <span>Olá mundo</span>
+        </div>
+    </div>
+    <div class="box4">
+        <p>Se lasque</p>
+    </div>
+</body>
+</html>
