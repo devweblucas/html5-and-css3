@@ -5,8 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aula 2</title>
+    <style>
+        html, body{
+            height: 100%;
+        }
+
+        a[href="http://www.google.com"]{
+            color: red;
+        }
+
+        a[href*="twi"]{
+            color: rgb(220, 235, 15);
+        }
+
+        a[attr*="Luc"]{
+            background-color: aqua;
+        }
+
+        a[attr^="Vasco"]{
+            background-color: pink;
+        }
+
+        a[attr$="caralho"]{
+            text-decoration: none;
+        }
+        input[type=date]{
+            background-color: aqua;
+        }
+    </style>
 </head>
 <body>
     <h1>Manipulando elementos via CSS</h1>
+    <a href="http://www.google.com">Meu link para o google</a>
+    <br>
+    <a href="https://www.youtube.com">YT</a> <br>
+    <a href="https://www.twitch.tv/">Twitch</a> <br>
+    <a attr="Lucas">Lucas</a> <br>
+    <a attr="Vasco" href="https://www.twitter.com">Twitter</a> <br>
+    <a attr ="Porra caralho" href="">Se lasque/a>
+    <form action="">
+        <input type="text">
+        <input type="date" name="" id="">
+    </form>
 </body>
 </html>

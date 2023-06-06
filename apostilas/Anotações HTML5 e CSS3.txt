@@ -1405,18 +1405,61 @@ transform: translateX(140%);
 
 transform: rotated: Faz as coisas rodarem
 
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+Aulas Danki Code
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
 		
+*Aulas de CSS*
+
+
+inherit: significa valores herdados do atributo pai
+
+auto: Não serve para qualquer propriedade, é muito util no design responsivo
+
+intiatal: padrão do navegador
+
+a[href]{
+	serve para atacar todos os links que tem esse valor
+}
+
+a[href="http://www.google.com"]{
+            color: red;
+        }
 
 
 
+[href="http://www.google.com"]{
+            color: red;
+} Assim também pode	
 
 
+a[href*="Google"] == Está dizendo para atacar todos os links com atributo href e com a palvra 'Google'
+
+A função attr() do CSS é utilizada para se obter o valor de um determinado atributo do elemento selecionado e usá-lo na folha de estilo. Também pode ser utilizado em pseudo-elementos, 
+nesse caso o valor do atributo no pseudo-elemento do elemento original é retornado.
+
+o *= serve para procurar palavras quase igual
+
+a[href*="twi"]{
+            color: rgb(220, 235, 15);
+}
+
+|= serve para selecionar a primeira palavra e separada por um traço
 
 
+^= Quando começamos com a palavra
 
+$= Quando termina com a palvra
 
-
-
+input[type=date]{
+            background-color: aqua;
+}
 
 
 
