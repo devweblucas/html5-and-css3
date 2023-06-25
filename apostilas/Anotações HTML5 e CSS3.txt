@@ -1463,6 +1463,18 @@ input[type=date]{
 
 
 
+--------------------------------------------------------------
+
+hover: é uma psceudoclasse que quando você passa o mouse, ela faz algo
+
+
+active: ao pressionar o moude, acontece algo
+
+focus: serve para formulário quando clicar
+
+visited: serve para links
+
+link: serve para links
 
 
 
