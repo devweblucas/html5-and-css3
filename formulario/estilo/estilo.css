@@ -12,6 +12,7 @@ html, body{
 
 body{
     background-image: url('../midia/pexels-keira-burton-6146978.jpg');
+    
     background-size: cover;
     background-repeat: no-repeat;
     margin: auto;
